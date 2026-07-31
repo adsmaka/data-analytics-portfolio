@@ -1,3 +1,6 @@
+-- Query 04: Create Master Cleaned View
+-- Purpose: Standardize column names and types for downstream BI tools (Tableau / Looker Studio).
+
 CREATE OR REPLACE VIEW `nsw-health-analytics.nsw_hospital_data.vw_ed_performance_cleaned` AS
 SELECT 
     entity_id AS facility_code,
